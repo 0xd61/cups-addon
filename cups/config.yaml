@@ -28,3 +28,6 @@ schema:
   admin_username: str
   admin_password: password
 startup: services
+full_access: true
+privileged:
+  - PERFMON
